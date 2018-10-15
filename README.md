@@ -34,7 +34,8 @@ Object_detection.py explains how to create a simple convnet using keras framwork
     2. CT Scan
     3. Xray Scans etc.
 2. Thermal images
-3. Agricultural problems etc
+3. Agricultural problems 
+4. Satellite images etc
 
 
 
