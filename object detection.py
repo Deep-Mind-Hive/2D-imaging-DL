@@ -19,3 +19,4 @@ test_datagen = ImageDataGenerator(rescale=1./255)
 training_set = train_datagen.flow_from_directory('path of your training dataset',target_size=(64,64),batch_size=32,class_mode='binary')
 test_set= test_datagen.flow_from_directory('path of your test data set',target_size=(64, 64),batch_size=32,class_mode='binary')
 model.fit_generator(training_set,steps_per_epoch=2000,epochs=15,validation_data=test_set,validation_steps=2000)
+
