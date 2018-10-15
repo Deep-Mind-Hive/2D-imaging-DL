@@ -23,3 +23,18 @@ There are many libraries in Python to handle these kind of data:
 
 
 Convolutional Neural Network is a neural network consists of convolutional layer, pooling layer (max pooling or average pooling but max pooling is preferable), fully connected layer and at last a softmax pooling
+
+Object_detection.py explains how to create a simple convnet using keras framwork.
+
+
+
+## 4. Area of application ?
+1. Medical problems
+  1. MRI dataset
+  2. CT Scan
+  3. Xray Scans etc.
+2. Thermal images
+3. Agricultural problems etc
+
+
+
