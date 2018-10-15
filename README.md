@@ -1,6 +1,6 @@
 # Deep Learning On 2-Dimentional Images
 
-## 1. What is 2 Dimentional image ? 
+## 1. What is 2-Dimentional image ? 
 One type of picture you can come across in real life is the two-dimensional one. The two dimensions depicted are length and width and the objects on the picture are flat.
 
 
@@ -16,4 +16,10 @@ There are many libraries in Python to handle these kind of data:
   
 
 
-## 3. 
+## 3. How these model work ?
+
+![picture alt](https://www.researchgate.net/publication/314282902/figure/fig1/AS:469481303613440@1488944473917/Architecture-of-the-proposed-CNN-model-with-2-convolutional-layers.png "Title is optional")
+
+
+
+Convolutional Neural Network is a neural network consists of convolutional layer, pooling layer (max pooling or average pooling but max pooling is preferable), fully connected layer and at last a softmax pooling
