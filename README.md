@@ -30,9 +30,9 @@ Object_detection.py explains how to create a simple convnet using keras framwork
 
 ## 4. Area of application ?
 1. Medical problems
-  1. MRI dataset
-  2. CT Scan
-  3. Xray Scans etc.
+    1. MRI dataset
+    2. CT Scan
+    3. Xray Scans etc.
 2. Thermal images
 3. Agricultural problems etc
 
