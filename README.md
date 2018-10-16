@@ -74,3 +74,6 @@ You can easily install pydicom via command prompt
 
 
 <code>pip install pydicom</code>
+
+
+You can find such data from [kaggel competion](https://www.kaggle.com/c/data-science-bowl-2017/data) and here you can find [solution](https://github.com/tondonia/data-science-bowl-2017)
