@@ -63,6 +63,5 @@ One of the challenges in working with MRI data is dealing with the artifacts pro
 
 All MRI data was provided by the [2015 MICCAI BraTS Challenge](http://www.braintumorsegmentation.org), which consists of approximately 250 high-grade glioma cases and 50 low-grade cases. However, due to the limited time  Each dataset contains four different MRI [pulse sequences](#pulse-sequences), each of which is comprised of 155 brain slices, for a total of 620 images per patient. Professional segmentation is provided as ground truth labels for each case. Figure 1 is an example of a scan with the ground truth segmentation. The segmentation labels are represented as follows:  
 
-<img alt="Example of tumor segmentation overlay on T2" src="https://github.com/naldeborgh7575/brain_segmentation/raw/master/images/segmented_slice.png
-" width='400'>  
+<img alt="Example of tumor segmentation overlay on T2" src="https://github.com/naldeborgh7575/brain_segmentation/raw/master/images/segmented_slice.png" width='400'>  
 
