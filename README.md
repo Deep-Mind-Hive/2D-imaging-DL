@@ -80,8 +80,9 @@ You can easily install pydicom via command prompt
    <code>pip install nibabel pydicom medpy</code>
    
    
-   * You can find such data from [kaggel competion](https://www.kaggle.com/c/data-science-bowl-2017/data) and here you can find [solution](https://github.com/tondonia/data-science-bowl-2017). 
-
+   * You can find such data from [kaggel competion](https://www.kaggle.com/c/data-science-bowl-2017/data)
+   
+   * [How to manipulate and vectorize data](https://www.kaggle.com/gzuidhof/full-preprocessing-tutorial)
 
 
 
