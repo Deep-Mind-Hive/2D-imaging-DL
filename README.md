@@ -36,12 +36,12 @@ Object_detection.py explains how to create a simple convnet using keras framwork
     4. InfraRed Images
 2. Thermal images
 3. Agricultural problems 
-4. Satellite images etc
+4. Satellite images etc.
 
 
 
 ## 4.1 Medical Problems
-### 4.1.1 MRI dataset
+### 4.1.1 MRI/CT-Scan/X-rays dataset
 #### MRI Background
 
 Magnetic Resonance Imaging (MRI) is the most common diagnostic tool brain tumors due primarily to it's noninvasive nature and ability to image diverse tissue types and physiological processes. MRI uses a magnetic gradient and radio frequency pulses to take repetitive axial slices of the brain and construct a 3-dimensional representation. Each brain scan 155 slices, with each pixel representing a 1mm<sup>3</sup> voxel.  
@@ -51,9 +51,9 @@ Magnetic Resonance Imaging (MRI) is the most common diagnostic tool brain tumors
 
 
 
-#### MRI pre-processing ([code](https://github.com/naldeborgh7575/brain_segmentation/blob/master/code/brain_pipeline.py))
+#### MRI/CT-Scan/X-rays pre-processing ([code](https://github.com/naldeborgh7575/brain_segmentation/blob/master/code/brain_pipeline.py))
 
-One of the challenges in working with MRI data is dealing with the artifacts produced either by inhomogeneity in the magnetic field or small movements made by the patient during scan time. Oftentimes a bias will be present across the resulting scans, which can effect the segmentation results particularly in the setting of computer-based models.
+One of the challenges in working with MRI/CT-Scan/X-rays data is dealing with the artifacts produced either by inhomogeneity in the magnetic field or small movements made by the patient during scan time. Oftentimes a bias will be present across the resulting scans, which can effect the segmentation results particularly in the setting of computer-based models.
 
 <img alt="Bias correction before and after" src="https://github.com/naldeborgh7575/brain_segmentation/raw/master/images/n4_correction.png" width=200>  
 
@@ -83,6 +83,10 @@ You can easily install pydicom via command prompt
    * You can find such data from [kaggel competion](https://www.kaggle.com/c/data-science-bowl-2017/data)
    
    * [How to manipulate and vectorize data](https://www.kaggle.com/gzuidhof/full-preprocessing-tutorial)
+   
+   * Video tutorial on such data can be found [here](https://www.youtube.com/watch?v=KlffppN47lc)
+   
+   
 
 
 
