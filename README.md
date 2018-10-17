@@ -69,7 +69,7 @@ Medical images follow Digital Imaging and Communications (DICOM) as a standard s
 
 
 #### Python library that handel these data
-   * A very good python package used for analyzing DICOM images is [pydicom](https://pydicom.github.io/).
+   * A very popular python package used for analyzing DICOM images is [pydicom](https://pydicom.github.io/).
 You can easily install pydicom via command prompt
 
 
