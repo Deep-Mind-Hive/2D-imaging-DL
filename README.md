@@ -10,9 +10,9 @@ One type of picture you can come across in real life is the two-dimensional one.
 
 ## 2. How to handle these data ?
 There are many libraries in Python to handle these kind of data:
-  1. Keras (<https://keras.io/>)
-  2. Tensorflow (<https://www.tensorflow.org/tutorials/)
-  3. cv2 (<https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_gui/py_image_display/py_image_display.html>)
+  1. [Keras](https://keras.io/)
+  2. [Tensorflow](https://www.tensorflow.org/tutorials/)
+  3. [cv2](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_gui/py_image_display/py_image_display.html)
   
 
 
@@ -69,11 +69,21 @@ Medical images follow Digital Imaging and Communications (DICOM) as a standard s
 
 
 #### Python library that handel these data
-A very good python package used for analyzing DICOM images is pydicom.
+   * A very good python package used for analyzing DICOM images is [pydicom](https://pydicom.github.io/).
 You can easily install pydicom via command prompt
 
 
-<code>pip install pydicom</code>
+   <code>pip install pydicom</code>
+
+   * Another library is [MedPy](https://pypi.org/project/MedPy/).
+   
+   <code>pip install nibabel pydicom medpy</code>
+   
+   
+   * You can find such data from [kaggel competion](https://www.kaggle.com/c/data-science-bowl-2017/data) and here you can find [solution](https://github.com/tondonia/data-science-bowl-2017). 
 
 
-You can find such data from [kaggel competion](https://www.kaggle.com/c/data-science-bowl-2017/data) and here you can find [solution](https://github.com/tondonia/data-science-bowl-2017).
+   * Another library is [MedPy](https://pypi.org/project/MedPy/).
+
+
+
