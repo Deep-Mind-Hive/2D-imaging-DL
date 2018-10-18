@@ -112,14 +112,10 @@ You can easily install pydicom via command prompt
             return rgb_img
 
 
-    pixels = 512
-    img = np.random.randint(-2000,2000,pixels**2).reshape(pixels,pixels)
+    
     bt = 0
     wt = 1400
 
-    rgb = dicom_to_rgb(img,bt,wt)
-    
-    #with your input file
     dicom_file = dicom.read_file(filename)
     img = np.array(dicom_file.pixel_array)
 
