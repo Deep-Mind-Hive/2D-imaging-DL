@@ -50,6 +50,11 @@ Magnetic Resonance Imaging (MRI) is the most common diagnostic tool brain tumors
 <img alt="3D rendering produced by T2 MRI scan" src="https://github.com/naldeborgh7575/brain_segmentation/raw/master/images/t29_143.gif" width=250>  
 
 
+#### CT-Scan Background
+A computerized tomography scan (CT or CAT scan) uses computers and rotating X-ray machines to create cross-sectional images of the body. These images provide more detailed information than normal X-ray images. They can show the soft tissues, blood vessels, and bones in various parts of the body. [(Read more...)](https://www.healthline.com/health/ct-scan)
+
+<img alt="Basic MRI Workflow" src="https://caraccidentsinorlando.com/wp-content/uploads/2017/12/ct-vs-mri.jpg" width=450>
+
 
 #### MRI/CT-Scan/X-rays pre-processing ([code](https://github.com/naldeborgh7575/brain_segmentation/blob/master/code/brain_pipeline.py))
 
@@ -85,8 +90,35 @@ You can easily install pydicom via command prompt
    * [How to manipulate and vectorize data](https://www.kaggle.com/gzuidhof/full-preprocessing-tutorial)
    
    * Video tutorial on such data can be found [here](https://www.youtube.com/watch?v=KlffppN47lc)
+   * Simple vectorization process for dicom images
    
-   
+   <code>
+                      
+    import numpy as np
+    def dicom_to_rgb(img,bt,wt):
+
+    # enforce boundary conditions
+    img = np.clip(img,bt,wt)
+
+    # linear transformation
+    # multiplicative
+    img = np.multiply(img,-255/(wt-bt)).astype(np.int)
+    # additive
+    img += 255
+
+    # stack thrice on the last axis for R G B
+    rgb_img = np.stack([img]*3,axis=-1)
+
+    return rgb_img
+
+
+    pixels = 512
+    img = np.random.randint(-2000,2000,pixels**2).reshape(pixels,pixels)
+    bt = 0
+    wt = 1400
+
+    rgb = dicom_to_rgb(img,bt,wt)
+   </code>
 
 
 
