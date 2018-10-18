@@ -139,5 +139,8 @@ In infrared photography, the film or image sensor used is sensitive to infrared 
    1. [Pyradi](https://pypi.org/project/pyradi/)
        <br> <code>pip install pyradi</code>
    2. [Spy](http://www.spectralpython.net/) <bR> <code>pip install spectral</code>
-   3. [Rampy](https://github.com/charlesll/rampy)<code>pip install rampy</code>
+   3. [Rampy](https://github.com/charlesll/rampy)<br><code>pip install rampy</code>
 
+
+
+[White paper for reference.](https://sci-hub.tw/https://ieeexplore.ieee.org/document/7532521)
