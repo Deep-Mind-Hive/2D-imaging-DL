@@ -92,7 +92,7 @@ You can easily install pydicom via command prompt
    * Video tutorial on such data can be found [here](https://www.youtube.com/watch?v=KlffppN47lc)
    * Simple vectorization process for dicom images
    
-   <code>
+   
                       
     import numpy as np
     def dicom_to_rgb(img,bt,wt):
@@ -125,7 +125,7 @@ You can easily install pydicom via command prompt
 
     rgb = dicom_to_rgb(img,wt,bt)
     
-   </code>
+
 
 
 
