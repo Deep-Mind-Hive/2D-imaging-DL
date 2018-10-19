@@ -93,39 +93,9 @@ You can easily install pydicom via command prompt
    * [How to manipulate and vectorize data](https://www.kaggle.com/gzuidhof/full-preprocessing-tutorial)
    
    * Video tutorial on such data can be found [here](https://www.youtube.com/watch?v=KlffppN47lc)
-   * Simple vectorization process for dicom images
+   * [Simple vectorization process for dicom images](https://github.com/Deep-Mind-Hive/2D-imaging-DL/blob/master/vectorizing.py)
    
    
-                      
-    import numpy as np
-    def dicom_to_rgb(img,bt,wt):
-
-            # enforce boundary conditions
-            img = np.clip(img,bt,wt)
-
-            # linear transformation
-            # multiplicative
-            img = np.multiply(img,-255/(wt-bt)).astype(np.int)
-            # additive
-            img += 255
-
-            # stack thrice on the last axis for R G B
-            rgb_img = np.stack([img]*3,axis=-1)
-
-            return rgb_img
-
-
-    
-    bt = 0
-    wt = 1400
-
-    dicom_file = dicom.read_file(filename)
-    img = np.array(dicom_file.pixel_array)
-
-    rgb = dicom_to_rgb(img,wt,bt)
-    
-
-
 
 ### 4.1.2 InfraRed Image dataset
 
