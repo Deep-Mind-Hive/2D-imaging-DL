@@ -35,9 +35,7 @@ Object_detection.py explains how to create a simple convnet using keras framwork
     3. Xray Scans etc.
     4. InfraRed Images
 2. Thermal images
-3. Agricultural problems 
-4. Satellite images etc.
-
+3. Satellite images etc.
 
 
 ## 4.1 Medical Problems
@@ -75,7 +73,12 @@ Medical images follow Digital Imaging and Communications (DICOM) as a standard s
    * Communications Protocol — The DICOM communication protocol is used to search for imaging studies in the archive and restore imaging studies to the workstation in order to display it. All medical imaging applications that are connected to the hospital network use the DICOM protocol to exchange information, mainly DICOM images but also patient and procedure information. There are also more advanced network commands that are used to control and follow the treatment, schedule procedures, report statuses and share the workload between doctors and imaging devices.
 
 
-
+#### [Data file extensions](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3948928/)
+  1. <strong>.dcm - handeled by pydicom library</strong>
+  2. .nii
+  3. .mnc
+  4. .img and .hdr
+  
 #### Python library that handel these data
    * A very popular python package used for analyzing DICOM images is [pydicom](https://pydicom.github.io/).
 You can easily install pydicom via command prompt
