@@ -39,6 +39,11 @@ Object_detection.py explains how to create a simple convnet using keras framwork
 
 
 ## 4.1 Medical Problems
+<p aling="center">
+<img alt="medical imaging" src="https://www.researchgate.net/profile/Nilanjan_Dey3/publication/312222298/figure/fig2/AS:476035763445761@1490507178297/Association-between-the-electromagnetic-spectrum-and-the-medical-modalities.png"></p>
+
+
+
 ### 4.1.1 MRI/CT-Scan/X-rays dataset
 #### MRI Background
 
@@ -140,3 +145,6 @@ Thermal  imaging refers  to improve  objects visibility even  in a  dark  enviro
 [For more mathematical details](https://www.researchgate.net/publication/312222298_Thermal_Imaging_in_Medical_Science)
 <p align="center">
 <img alt="thermal image" src="https://s3-media1.fl.yelpcdn.com/bphoto/zlyM4CeCZVcz_LcmwOy4bQ/ls.jpg"></p>
+
+
+
