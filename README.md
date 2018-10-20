@@ -106,7 +106,7 @@ You can easily install pydicom via command prompt
 In infrared photography, the film or image sensor used is sensitive to infrared light. The part of the spectrum used is referred to as near-infrared to distinguish it from far-infrared, which is the domain of thermal imaging. Wavelengths used for photography range from about 700 nm to about 900 nm. Film is usually sensitive to visible light too, so an infrared-passing filter is used; this lets infrared (IR) light pass through to the camera, but blocks all or most of the visible light spectrum
 
 <p align="center">
-<img alt="InfraRed image" src="https://nvie.ustc.edu.cn/images/InfraredWithGlasses.JPG" ></p>
+<img alt="InfraRed image" src="http://www.thermomed.org/images/rost-regulation_470.jpg" ></p>
 
 #### Libraries for python
    1. [Pyradi](https://pypi.org/project/pyradi/)
@@ -117,3 +117,9 @@ In infrared photography, the film or image sensor used is sensitive to infrared 
 
 
 [White paper for reference.](https://sci-hub.tw/https://ieeexplore.ieee.org/document/7532521)
+
+
+
+
+### 4.2 Thermal Images
+
