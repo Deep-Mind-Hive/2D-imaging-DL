@@ -144,7 +144,7 @@ Thermal  imaging refers  to improve  objects visibility even  in a  dark  enviro
 
 [For more mathematical details](https://www.researchgate.net/publication/312222298_Thermal_Imaging_in_Medical_Science)
 <p align="center">
-<img alt="thermal image" src="https://s3-media1.fl.yelpcdn.com/bphoto/zlyM4CeCZVcz_LcmwOy4bQ/ls.jpg"></p>
+<img alt="thermal image" src="https://s3-media1.fl.yelpcdn.com/bphoto/zlyM4CeCZVcz_LcmwOy4bQ/ls.jpg"></p> 
 
 
 
