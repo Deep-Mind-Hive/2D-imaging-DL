@@ -148,3 +148,18 @@ Thermal  imaging refers  to improve  objects visibility even  in a  dark  enviro
 
 
 
+### 4.3 Satellite Images
+
+<p align="center">
+<img width=500 alt="satellite images" src="https://cdn-images-1.medium.com/max/1200/0*iRgiB6y8atMchG0o.jpg"></p>
+
+1. Satellite imagery are images of Earth or other planets collected by imaging satellites operated by governments and businesses around the world. Satellite imaging companies sell images by licensing them to governments and businesses such as Apple Maps and Google Maps.
+2. Satellite images are one of the most powerful and important tools used by the meteorologist. They are essentially the eyes in the sky. These images reassure forecasters to the behavior of the atmosphere as they give a clear, concise, and accurate representation of how events are unfolding. Forecasting the weather and conducting research would be extremely difficult without satellites. Data taken at stations around the country is limited in its representations of atmospheric motion. It is still possible to get a good analysis from the data, but because the stations are separated by hundreds of miles significant features can be missed. Satellite images aid in showing what can not be measured or seen. In addition the satellite images are viewed as truth. There is no chance for error. Satellite images provide data that can be interpreted "first-hand".
+
+
+#### Libraries of python
+  1. [geoio](https://pypi.org/project/geoio/)
+ 
+      <code>pip install geoio</code>
+      
+  2. [raster vision](https://github.com/azavea/raster-vision)
