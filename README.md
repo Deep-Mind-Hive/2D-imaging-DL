@@ -173,3 +173,37 @@ Thermal  imaging refers  to improve  objects visibility even  in a  dark  enviro
 |raster graphics are composed of pixels | vector graphics are composed of paths |
 | A raster graphic, such as a gif or jpeg, is an array of pixels of various colors, which together form an image | A vector graphic, such as .svg, .eps file or Adobe Illustrator file, is composed of paths, or lines, that are either straight or curved.|
 | Raster graphics become "blocky," since each pixel increases in size as the image is made larger. This is why logos and other designs are typically created in vector format -- the quality will look the same on a business card as it will on a billboard. | The data file for a vector image contains the points where the paths start and end, how much the paths curve, and the colors that either border or fill the paths. Because vector graphics are not made of pixels, the images can be scaled to be very large without losing quality. |
+
+
+
+## 5. Geometric, Photometric and Morphological transformations
+
+### 5.1 Geometric transformation
+
+The functions in this section perform various geometrical transformations of 2D images. They do not change the image content but deform the pixel grid and map this deformed grid to the destination image. In fact, to avoid sampling artifacts, the mapping is done in the reverse order, from destination to the source. That is, for each pixel (x, y) of the destination image, the functions compute coordinates of the corresponding “donor” pixel in the source image and copy the pixel value:
+<p align = "center">{dst} (x,y)= {src} (f_x(x,y), f_y(x,y))</p> 
+
+#### Library for Such operation
+
+##### [OpenCv](https://docs.opencv.org/2.4/modules/imgproc/doc/geometric_transformations.html)
+  1. getAffineTransform
+  2. getPerspectiveTransform
+  3. getRectSubPix
+  4. getRotationMatrix2D
+  5. invertAffineTransform
+  6. LinearPolar
+  7. LogPolar
+  8. remap
+  9. resize
+  10. warpAffine
+  11. warpPerspective
+  12. initUndistortRectifyMap
+  13. getDefaultNewCameraMatrix
+  14. undistortPoints
+  15. undistort
+  
+  
+  
+
+
+
