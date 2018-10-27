@@ -166,4 +166,10 @@ Thermal  imaging refers  to improve  objects visibility even  in a  dark  enviro
 
 
 
+### Difference between Raster and Vector Images
 
+| Raster Images | Vector Images |
+| :--- | ---:|
+|raster graphics are composed of pixels | vector graphics are composed of paths |
+| A raster graphic, such as a gif or jpeg, is an array of pixels of various colors, which together form an image | A vector graphic, such as .svg, .eps file or Adobe Illustrator file, is composed of paths, or lines, that are either straight or curved.|
+| Raster graphics become "blocky," since each pixel increases in size as the image is made larger. This is why logos and other designs are typically created in vector format -- the quality will look the same on a business card as it will on a billboard. | The data file for a vector image contains the points where the paths start and end, how much the paths curve, and the colors that either border or fill the paths. Because vector graphics are not made of pixels, the images can be scaled to be very large without losing quality. |
